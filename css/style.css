@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.icon-outline{
+  color: #007dff;
+}
+.top-border{
+  background-color: #020e28;
+  padding: 10px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+/* nav css start */
+.header-section{
+  padding: 10px 0;
+}
+
+.container.header-section header .navbar-nav li.nav-item a.nav-link {
+  color: #353e53;
+  font-weight: 600;
+  font-size: 16px !important;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s;
+  margin-right: 15px;
+}
+
+.container.header-section header .navbar-nav li.nav-item a.nav-link.active,
+.container.header-section header .navbar-nav li.nav-item a.nav-link:hover {
+  color: #fdbe00;
+  border-bottom-color: #fdbe00;
+}
+.nav-link {
+  color: #353e53 !important;
+}
+.header-button{
+   background: linear-gradient(90deg, #fdbe00, #037efc);
+   color: #fff;
+   border-radius: 50px;
+}
+
+/* banner section */
+.banner-section {
+  background-image: url("../assets/images/banner.png");
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 100vh; */
+  padding: 50px 0;
+  background-color: #333;
+}
+.slider-image img{
+  width: 100%;
+}
+.banner-section h2 {
+  font-size: 64px;
+  color: #fff;
+  text-align: left;
+  font-weight: 700;
+  /* margin-top: 50%; */
+}
+
+.banner-section h2 span:nth-child(1) {
+  color: #fdbe00;
+}
+
+.banner-section h2 span:nth-child(2) {
+  color: #007dff;
+}
+
+.banner-section p {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+}
+/* service css start */
+
+.service .card {
+  border-color: none;
+  margin-top: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service .card-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.service p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* why choose us css :start */
+.choose-us {
+  margin: 60px 0;
+}
+
+.custom-p {
+  font-size: 16px;
+  font-weight: normal;
+}
+.custom-h2 {
+  font-size: 35px;
+  font-weight: bold;
+
+  display: inline-block;
+}
+
+.custom-h2 .why {
+  color: #fdbe00;
+  border-bottom: 2px solid #007dff;
+}
+
+.custom-h2 .anncar {
+  color: #004377;
+}
+/* material css */
+.material {
+  background-image: url("../assets/images/material.png");
+  margin:50px 0
+}
+.engine-parts {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.parts {
+  color: #fdbe00;
+}
+
+.engine-text {
+  border-bottom: 2px solid #007dff;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.top {
+  padding-top: 50px;
+}
+.bottom {
+  padding: 50px 0;
+}
+
+.ground-engaging {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ground-engaging-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 60px 0 0;
+  
+}
+
+.learn-more {
+  color: #fdbe00;
+}
+/* what we sell  */
+.sell {
+  margin: 50px 0;
+}
+.sell-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #004377;
+  border-bottom: 2px solid #004377;
+}
+
+.top-brands {
+  color: #fdbe00;
+  font-weight: bold;
+}
+
+.brand-name {
+  color: #101010;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.brand-description {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.brand-name-class {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* you-need section css  */
+.you-need {
+  background-image: url("../assets/images/need.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0;
+}
+/* .img-need{
+  width: 100%;
+} */
+.right-part{
+  margin-left: -6%;
+}
+.right-part .card-body {
+  padding: 50px 50px;
+ 
+}
+.right-part h2 span:first-child {
+  color: #fdbe00;
+}
+
+.right-part h2 span:last-child {
+  color: #007dff;
+}
+
+.right-part p {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+  padding: 15px 0;
+}
+
+.right-part button.btn-primary {
+  background-color: #007dff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 16px;
+  /* letter-spacing: 1px; */
+}
+
+.right-part h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #007dff;
+}
+/* footer css */
+
+.footer {
+  background-color: #020e28;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+.bottom-row {
+  padding: 20px 0;
+}
+
+.footer h5 {
+  font-size: 20px;
+  font-weight: medium;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 0;
+  text-align: justify;
+}
+
+.footer i.fab {
+  color: #e3b71a;
+  margin-right: 5px;
+}
+.footer i.fas {
+  color: #e3b71a;
+  margin-right: 5px;
+}
+.footer i.fa-solid {
+  color: #e3b71a;
+  margin-right: 5px;
+}
+
+.footer button {
+  background: linear-gradient(90deg, #e3b71a, #037efc);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer button:hover {
+  background: linear-gradient(90deg, #037efc, #e3b71a);
+}
+
+.contact-info {
+  display: flex;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+.contact-info h6 {
+  font-size: 14px;
+  color: #fff;
+}
+.bottom-footer h6 {
+  padding: 20px 0;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background-color: #000818;
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ .img-need{
+  width: 100%;
+}
+.banner-section{
+  height: 0;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.img-need{
+  width: 100%;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .top-border{
+  background-color: #020e28;
+  padding: 10px 0;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+
+}
+  .banner-section h2{
+    font-size: 35px;
+    padding: 10px 5px 10px 5px;
+  }
+  .banner-section p{
+    font-size: 16px;
+    padding: 0px 5px 10px 5px;
+
+  }
+  .banner-section {
+    height: 90vh;
+  }
+  .custom-h2{
+    margin: 20px 0;
+  }
+  .brand-name-class {
+    gap: 20px;
+  }
+  .right-part{
+    margin-top: 50px;
+    margin-left: 0%;
+
+  }
+  .bottom-row {
+    gap: 15px;
+  }
+ .img-need{
+  width: 100%;
+}
+  
+}
