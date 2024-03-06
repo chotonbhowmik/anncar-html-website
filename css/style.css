@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 p {
   margin: 0;
@@ -30,11 +31,11 @@ h6 {
 
 }
 /* nav css start */
-.header-section{
+.header-section {
   padding: 10px 0;
 }
 
-.container.header-section header .navbar-nav li.nav-item a.nav-link {
+.header-section .container header .navbar-nav li.nav-item a.nav-link {
   color: #353e53;
   font-weight: 600;
   font-size: 16px !important;
@@ -43,19 +44,25 @@ h6 {
   margin-right: 15px;
 }
 
-.container.header-section header .navbar-nav li.nav-item a.nav-link.active,
-.container.header-section header .navbar-nav li.nav-item a.nav-link:hover {
+.header-section .container header .navbar-nav li.nav-item a.nav-link.active,
+.header-section .container header .navbar-nav li.nav-item a.nav-link:hover {
   color: #fdbe00;
   border-bottom-color: #fdbe00;
 }
-.nav-link {
-  color: #353e53 !important;
+
+.header-section .container header .navbar-nav li.nav-item button.header-button {
+  background: linear-gradient(90deg, #fdbe00, #037efc);
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
 }
-.header-button{
-   background: linear-gradient(90deg, #fdbe00, #037efc);
-   color: #fff;
-   border-radius: 50px;
+
+.header-section .container header .navbar-nav li.nav-item button.header-button i {
+  margin-right: 5px;
 }
+
 
 /* banner section */
 .banner-section {
@@ -68,6 +75,8 @@ h6 {
   /* height: 100vh; */
   padding: 50px 0;
   background-color: #333;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .slider-image img{
   width: 100%;
@@ -99,7 +108,7 @@ h6 {
 /* service css start */
 
 .service .card {
-  border-color: none;
+  border: none;
   margin-top: 60px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -345,13 +354,22 @@ h6 {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px)  {
   
  .img-need{
   width: 100%;
 }
 .banner-section{
-  height: 0;
+  height: 50vh;
+}
+.service .card-title{
+  font-size: 16px;
+}
+.banner-section h2{
+  font-size: 35px;
+}
+.right-part h2{
+  font-size: 20px;
 }
   
 }
@@ -393,7 +411,7 @@ h6 {
 
   }
   .banner-section {
-    height: 90vh;
+    /* height: 90vh; */
   }
   .custom-h2{
     margin: 20px 0;
