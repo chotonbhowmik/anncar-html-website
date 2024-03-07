@@ -205,6 +205,7 @@ h6 {
 
 .top-brands {
   color: #fdbe00;
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -302,8 +303,9 @@ h6 {
 }
 
 .footer i.fab {
-  color: #e3b71a;
-  margin-right: 5px;
+  color: #fff;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 .footer i.fas {
   color: #e3b71a;
@@ -332,7 +334,8 @@ h6 {
   display: flex;
   color: #fff;
   margin-left: 10px;
-  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-top: 7px;
 }
 
 .contact-info i {
@@ -430,5 +433,20 @@ h6 {
  .img-need{
   width: 100%;
 }
-  
+.slider-image img{
+  margin-top: 30px;
+}
+  .material-right-part{
+    margin-top: 30px;
+  }
+  .material-bottom-right-part{
+    margin-top: 30px;
+
+  }
+  .sell-image{
+    margin-top: 20px;
+  }
+  .service-image{
+    margin-left: 10px;
+  }
 }
