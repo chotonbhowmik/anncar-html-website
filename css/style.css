@@ -4,6 +4,10 @@ body {
   font-family: "Poppins", sans-serif;
   
 }
+a{
+  text-decoration: none;
+  color: #fff;
+}
 p {
   margin: 0;
   padding: 0;
@@ -346,6 +350,7 @@ h6 {
 .contact-info h6 {
   font-size: 14px;
   color: #fff;
+  overflow: hidden;
 }
 .bottom-footer h6 {
   padding: 20px 0;
@@ -366,6 +371,12 @@ h6 {
   
  .img-need{
   width: 100%;
+}
+.engine-parts {
+  font-size: 25px;
+}
+.ground-engaging-description{
+  padding: 10px 5px 0 0;
 }
 .banner-section{
   /* height: 50vh; */
