@@ -37,7 +37,7 @@ h6 {
 
 .header-section .container header .navbar-nav li.nav-item a.nav-link {
   color: #353e53;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px !important;
   border-bottom: 2px solid transparent;
   transition: border-bottom-color 0.3s;
@@ -129,7 +129,9 @@ h6 {
 .choose-us {
   margin: 60px 0;
 }
-
+.choose-us-text{
+  padding-left: 20px;
+}
 .custom-p {
   font-size: 16px;
   font-weight: normal;
@@ -245,11 +247,11 @@ h6 {
  
 }
 .right-part h2 span:first-child {
-  color: #fdbe00;
+  color: #007dff;
 }
 
 .right-part h2 span:last-child {
-  color: #007dff;
+  color:  #fdbe00;
 }
 
 .right-part p {
@@ -358,12 +360,15 @@ h6 {
 */
 
 @media (min-width: 768px) and (max-width: 1024px)  {
+  .header-section .container header .navbar-nav li.nav-item a.nav-link{
+    margin-right: 0px;
+  }
   
  .img-need{
   width: 100%;
 }
 .banner-section{
-  height: 50vh;
+  /* height: 50vh; */
 }
 .service .card-title{
   font-size: 16px;
@@ -396,6 +401,15 @@ h6 {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .ms-2{
+    font-size: 9px;
+  }
+  .service .card-title{
+    font-size: 25px;
+  }
+  .engine-parts{
+    font-size: 20px;
+  }
   .top-border{
   background-color: #020e28;
   padding: 10px 0;
@@ -413,9 +427,12 @@ h6 {
     padding: 0px 5px 10px 5px;
 
   }
-  .banner-section {
-    /* height: 90vh; */
-  }
+ .ground-engaging-description{
+  padding: 10px 0;
+ }
+ .right-part .card-body{
+  padding:20px 10px;
+ }
   .custom-h2{
     margin: 20px 0;
   }
@@ -449,4 +466,7 @@ h6 {
   .service-image{
     margin-left: 10px;
   }
+  .choose-us-text{
+  padding-left: 5px;
+}
 }
